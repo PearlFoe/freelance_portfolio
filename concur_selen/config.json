@@ -1,0 +1,8 @@
+{
+	"URL":"https://www.httpbin.org/get",
+	"PROXY_URL":"http://81.177.175.93/2ip/?json=3",
+	"MAX_TIME_PAGE_LOADING":15,
+	"MIN_TIME_TO_SLEEP":3,
+	"MAX_TIME_TO_SLEEP":15,
+	"HOURS_TO_STAY_IN_BALCKLIST":24
+}

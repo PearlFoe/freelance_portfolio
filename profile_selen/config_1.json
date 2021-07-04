@@ -1,0 +1,10 @@
+{
+	"URL":"https://178238235124.push.world/?source=button&trigger=timeout&subs_href=http%3A%2F%2F178.238.235.124%2Fdev%2F",
+	"PROXY_STATUS_TO_USE":[1,2,5,6],
+	"PROXY_URL":"http://81.177.175.93/2ip/?json=3",
+	"USERAGENT_FILE_NAME":"useragent.txt",
+	"PROXY_WAITING_TIMEOUT":10,
+	"MAX_TIME_PAGE_LOADING":25,
+	"TIME_TO_SLEEP_AFTER_LOADING":15,
+	"TIME_TO_SLEEP_AFTER_KILLIN_PROCESS":1
+}

@@ -1,0 +1,34 @@
+2021-06-24T16:13:29.311073+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (5104), thread 'MainThread' (4860):
+Traceback (most recent call last):
+
+> File "main.py", line 170, in <module>
+    main()
+    -> <function main at 0x000000000396A1F0>
+
+  File "main.py", line 167, in main
+    make_request(user_agent, proxies)
+    |            |           -> <generator object get_proxy at 0x00000000038D4CF0>
+    |            -> <generator object get_user_agent at 0x00000000038D4970>
+    -> <function make_request at 0x000000000396A0D0>
+
+TypeError: make_request() takes 1 positional argument but 2 were given
+2021-06-25T13:45:16.221719+0300 ERROR An error occured during driver creation.
+2021-06-25T13:45:16.261719+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (4264), thread 'MainThread' (2096):
+Traceback (most recent call last):
+
+> File "main.py", line 173, in <module>
+    main()
+    -> <function main at 0x000000000396A1F0>
+
+  File "main.py", line 170, in main
+    make_request(user_agent)
+    |            -> <generator object get_user_agent at 0x00000000038D9A50>
+    -> <function make_request at 0x000000000396A0D0>
+
+  File "main.py", line 156, in make_request
+    kill_processes(driver)
+    -> <function kill_processes at 0x000000000396A040>
+
+UnboundLocalError: local variable 'driver' referenced before assignment
+2021-06-25T13:46:56.772168+0300 ERROR An error occured during driver creation.
+2021-06-25T13:55:14.616736+0300 ERROR An error occured during driver creation.
